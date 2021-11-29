@@ -1,0 +1,7 @@
+*.gz
+val/
+train/
+test_images/
+.ipynb_checkpoints/
+jq
+jq.exe

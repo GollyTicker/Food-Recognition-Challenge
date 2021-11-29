@@ -1,0 +1,299 @@
+#### Setup on Windows
+
+conda create -n foodrec
+conda activate foodrec
+conda install -c fastai fastbook
+conda install -c fastai -c pytorch fastai
+
+
+#### Setup log
+
+>conda install -c fastai -c pytorch fastai
+Collecting package metadata (current_repodata.json): done
+Solving environment: failed with initial frozen solve. Retrying with flexible solve.
+Solving environment: failed with repodata from current_repodata.json, will retry with next repodata source.
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.10.1
+  latest version: 4.10.3
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Users\s.sahoo\Anaconda3\envs\foodrec4
+
+  added / updated specs:
+    - fastai
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    attrs-21.2.0               |     pyhd3eb1b0_0          46 KB
+    bottleneck-1.3.2           |   py39h7cc1a96_1         107 KB
+    brotlipy-0.7.0             |py39h2bbff1b_1003         411 KB
+    catalogue-1.0.0            |     pyhd3eb1b0_0          13 KB
+    certifi-2021.10.8          |   py39haa95532_0         152 KB
+    cffi-1.15.0                |   py39h2bbff1b_0         224 KB
+    charset-normalizer-2.0.4   |     pyhd3eb1b0_0          35 KB
+    cryptography-35.0.0        |   py39h71e12ea_0         991 KB
+    cudatoolkit-11.3.1         |       h59b6b97_2       545.3 MB
+    cycler-0.10.0              |   py39haa95532_0          16 KB
+    cymem-2.0.5                |   py39hd77b12b_0          38 KB
+    cython-blis-0.7.4          |   py39h2bbff1b_1         1.8 MB
+    fastai-2.5.3               |             py_0         143 KB  fastai
+    fastcore-1.3.26            |             py_0          48 KB  fastai
+    fastdownload-0.0.5         |             py_0          16 KB  fastai
+    fastprogress-1.0.0         |     pyh39e3cac_0          17 KB  fastai
+    fonttools-4.25.0           |     pyhd3eb1b0_0         632 KB
+    icc_rt-2019.0.0            |       h0cc432a_1         6.0 MB
+    idna-3.3                   |     pyhd3eb1b0_0          49 KB
+    joblib-1.1.0               |     pyhd3eb1b0_0         211 KB
+    jsonschema-3.0.2           |   py39haa95532_0         146 KB
+    kiwisolver-1.3.1           |   py39hd77b12b_0          52 KB
+    matplotlib-3.4.3           |   py39haa95532_0          29 KB
+    matplotlib-base-3.4.3      |   py39h49ac443_0         5.5 MB
+    mkl-service-2.4.0          |   py39h2bbff1b_0          51 KB
+    mkl_fft-1.3.1              |   py39h277e83a_0         139 KB
+    mkl_random-1.2.2           |   py39hf11a4ad_0         225 KB
+    munkres-1.1.4              |             py_0          13 KB
+    murmurhash-1.0.5           |   py39hd77b12b_0          24 KB
+    numexpr-2.7.3              |   py39hb80d3ca_1         126 KB
+    numpy-1.21.2               |   py39hfca59bb_0          24 KB
+    numpy-base-1.21.2          |   py39h0829f74_0         4.4 MB
+    olefile-0.46               |     pyhd3eb1b0_0          34 KB
+    packaging-21.3             |     pyhd3eb1b0_0          36 KB
+    pandas-1.3.4               |   py39h6214cd6_0         8.6 MB
+    pillow-8.4.0               |   py39hd45dc43_0         906 KB
+    pip-21.2.4                 |   py39haa95532_0         1.8 MB
+    plac-1.1.0                 |   py39haa95532_0          67 KB
+    preshed-3.0.5              |   py39h6c2663c_4          86 KB
+    pycparser-2.21             |     pyhd3eb1b0_0          94 KB
+    pyopenssl-21.0.0           |     pyhd3eb1b0_1          49 KB
+    pyparsing-3.0.4            |     pyhd3eb1b0_0          81 KB
+    pyqt-5.9.2                 |   py39hd77b12b_6         3.3 MB
+    pyrsistent-0.18.0          |   py39h196d8e1_0          90 KB
+    pysocks-1.7.1              |   py39haa95532_0          55 KB
+    python-3.9.7               |       h6244533_1        16.5 MB
+    python-dateutil-2.8.2      |     pyhd3eb1b0_0         233 KB
+    pytorch-1.10.0             |py3.9_cuda11.3_cudnn8_0        1.45 GB  pytorch
+    pytorch-mutex-1.0          |             cuda           3 KB  pytorch
+    pytz-2021.3                |     pyhd3eb1b0_0         171 KB
+    pyyaml-6.0                 |   py39h2bbff1b_1         145 KB
+    qt-5.9.7                   |   vc14h73c81de_0        72.5 MB
+    requests-2.26.0            |     pyhd3eb1b0_0          59 KB
+    scikit-learn-1.0.1         |   py39hf11a4ad_0         5.1 MB
+    scipy-1.7.1                |   py39hbe87c03_2        13.8 MB
+    setuptools-58.0.4          |   py39haa95532_0         778 KB
+    sip-4.19.13                |   py39hd77b12b_0         262 KB
+    spacy-2.3.5                |   py39h59b6b97_0         4.1 MB
+    srsly-1.0.5                |   py39hd77b12b_0         178 KB
+    thinc-7.4.5                |   py39h757b272_0         664 KB
+    threadpoolctl-2.2.0        |     pyh0d69192_0          16 KB
+    torchvision-0.11.1         |       py39_cu113         8.9 MB  pytorch
+    tornado-6.1                |   py39h2bbff1b_0         598 KB
+    tqdm-4.62.3                |     pyhd3eb1b0_1          83 KB
+    tzdata-2021e               |       hda174b7_0         112 KB
+    urllib3-1.26.7             |     pyhd3eb1b0_0         111 KB
+    wasabi-0.8.2               |     pyhd3eb1b0_0          23 KB
+    win_inet_pton-1.1.0        |   py39haa95532_0          35 KB
+    wincertstore-0.2           |   py39haa95532_2          15 KB
+    ------------------------------------------------------------
+                                           Total:        2.13 GB
+
+The following NEW packages will be INSTALLED:
+
+  attrs              pkgs/main/noarch::attrs-21.2.0-pyhd3eb1b0_0
+  blas               pkgs/main/win-64::blas-1.0-mkl
+  bottleneck         pkgs/main/win-64::bottleneck-1.3.2-py39h7cc1a96_1
+  brotli             pkgs/main/win-64::brotli-1.0.9-ha925a31_2
+  brotlipy           pkgs/main/win-64::brotlipy-0.7.0-py39h2bbff1b_1003
+  ca-certificates    pkgs/main/win-64::ca-certificates-2021.10.26-haa95532_2
+  catalogue          pkgs/main/noarch::catalogue-1.0.0-pyhd3eb1b0_0
+  certifi            pkgs/main/win-64::certifi-2021.10.8-py39haa95532_0
+  cffi               pkgs/main/win-64::cffi-1.15.0-py39h2bbff1b_0
+  charset-normalizer pkgs/main/noarch::charset-normalizer-2.0.4-pyhd3eb1b0_0
+  cryptography       pkgs/main/win-64::cryptography-35.0.0-py39h71e12ea_0
+  cudatoolkit        pkgs/main/win-64::cudatoolkit-11.3.1-h59b6b97_2
+  cycler             pkgs/main/win-64::cycler-0.10.0-py39haa95532_0
+  cymem              pkgs/main/win-64::cymem-2.0.5-py39hd77b12b_0
+  cython-blis        pkgs/main/win-64::cython-blis-0.7.4-py39h2bbff1b_1
+  fastai             fastai/noarch::fastai-2.5.3-py_0
+  fastcore           fastai/noarch::fastcore-1.3.26-py_0
+  fastdownload       fastai/noarch::fastdownload-0.0.5-py_0
+  fastprogress       fastai/noarch::fastprogress-1.0.0-pyh39e3cac_0
+  fonttools          pkgs/main/noarch::fonttools-4.25.0-pyhd3eb1b0_0
+  freetype           pkgs/main/win-64::freetype-2.10.4-hd328e21_0
+  icc_rt             pkgs/main/win-64::icc_rt-2019.0.0-h0cc432a_1
+  icu                pkgs/main/win-64::icu-58.2-ha925a31_3
+  idna               pkgs/main/noarch::idna-3.3-pyhd3eb1b0_0
+  intel-openmp       pkgs/main/win-64::intel-openmp-2021.4.0-haa95532_3556
+  joblib             pkgs/main/noarch::joblib-1.1.0-pyhd3eb1b0_0
+  jpeg               pkgs/main/win-64::jpeg-9d-h2bbff1b_0
+  jsonschema         pkgs/main/win-64::jsonschema-3.0.2-py39haa95532_0
+  kiwisolver         pkgs/main/win-64::kiwisolver-1.3.1-py39hd77b12b_0
+  libpng             pkgs/main/win-64::libpng-1.6.37-h2a8f88b_0
+  libtiff            pkgs/main/win-64::libtiff-4.2.0-hd0e1b90_0
+  libuv              pkgs/main/win-64::libuv-1.40.0-he774522_0
+  libwebp            pkgs/main/win-64::libwebp-1.2.0-h2bbff1b_0
+  lz4-c              pkgs/main/win-64::lz4-c-1.9.3-h2bbff1b_1
+  matplotlib         pkgs/main/win-64::matplotlib-3.4.3-py39haa95532_0
+  matplotlib-base    pkgs/main/win-64::matplotlib-base-3.4.3-py39h49ac443_0
+  mkl                pkgs/main/win-64::mkl-2021.4.0-haa95532_640
+  mkl-service        pkgs/main/win-64::mkl-service-2.4.0-py39h2bbff1b_0
+  mkl_fft            pkgs/main/win-64::mkl_fft-1.3.1-py39h277e83a_0
+  mkl_random         pkgs/main/win-64::mkl_random-1.2.2-py39hf11a4ad_0
+  munkres            pkgs/main/noarch::munkres-1.1.4-py_0
+  murmurhash         pkgs/main/win-64::murmurhash-1.0.5-py39hd77b12b_0
+  numexpr            pkgs/main/win-64::numexpr-2.7.3-py39hb80d3ca_1
+  numpy              pkgs/main/win-64::numpy-1.21.2-py39hfca59bb_0
+  numpy-base         pkgs/main/win-64::numpy-base-1.21.2-py39h0829f74_0
+  olefile            pkgs/main/noarch::olefile-0.46-pyhd3eb1b0_0
+  openssl            pkgs/main/win-64::openssl-1.1.1l-h2bbff1b_0
+  packaging          pkgs/main/noarch::packaging-21.3-pyhd3eb1b0_0
+  pandas             pkgs/main/win-64::pandas-1.3.4-py39h6214cd6_0
+  pillow             pkgs/main/win-64::pillow-8.4.0-py39hd45dc43_0
+  pip                pkgs/main/win-64::pip-21.2.4-py39haa95532_0
+  plac               pkgs/main/win-64::plac-1.1.0-py39haa95532_0
+  preshed            pkgs/main/win-64::preshed-3.0.5-py39h6c2663c_4
+  pycparser          pkgs/main/noarch::pycparser-2.21-pyhd3eb1b0_0
+  pyopenssl          pkgs/main/noarch::pyopenssl-21.0.0-pyhd3eb1b0_1
+  pyparsing          pkgs/main/noarch::pyparsing-3.0.4-pyhd3eb1b0_0
+  pyqt               pkgs/main/win-64::pyqt-5.9.2-py39hd77b12b_6
+  pyrsistent         pkgs/main/win-64::pyrsistent-0.18.0-py39h196d8e1_0
+  pysocks            pkgs/main/win-64::pysocks-1.7.1-py39haa95532_0
+  python             pkgs/main/win-64::python-3.9.7-h6244533_1
+  python-dateutil    pkgs/main/noarch::python-dateutil-2.8.2-pyhd3eb1b0_0
+  pytorch            pytorch/win-64::pytorch-1.10.0-py3.9_cuda11.3_cudnn8_0
+  pytorch-mutex      pytorch/noarch::pytorch-mutex-1.0-cuda
+  pytz               pkgs/main/noarch::pytz-2021.3-pyhd3eb1b0_0
+  pyyaml             pkgs/main/win-64::pyyaml-6.0-py39h2bbff1b_1
+  qt                 pkgs/main/win-64::qt-5.9.7-vc14h73c81de_0
+  requests           pkgs/main/noarch::requests-2.26.0-pyhd3eb1b0_0
+  scikit-learn       pkgs/main/win-64::scikit-learn-1.0.1-py39hf11a4ad_0
+  scipy              pkgs/main/win-64::scipy-1.7.1-py39hbe87c03_2
+  setuptools         pkgs/main/win-64::setuptools-58.0.4-py39haa95532_0
+  sip                pkgs/main/win-64::sip-4.19.13-py39hd77b12b_0
+  six                pkgs/main/noarch::six-1.16.0-pyhd3eb1b0_0
+  spacy              pkgs/main/win-64::spacy-2.3.5-py39h59b6b97_0
+  sqlite             pkgs/main/win-64::sqlite-3.36.0-h2bbff1b_0
+  srsly              pkgs/main/win-64::srsly-1.0.5-py39hd77b12b_0
+  thinc              pkgs/main/win-64::thinc-7.4.5-py39h757b272_0
+  threadpoolctl      pkgs/main/noarch::threadpoolctl-2.2.0-pyh0d69192_0
+  tk                 pkgs/main/win-64::tk-8.6.11-h2bbff1b_0
+  torchvision        pytorch/win-64::torchvision-0.11.1-py39_cu113
+  tornado            pkgs/main/win-64::tornado-6.1-py39h2bbff1b_0
+  tqdm               pkgs/main/noarch::tqdm-4.62.3-pyhd3eb1b0_1
+  typing_extensions  pkgs/main/noarch::typing_extensions-3.10.0.2-pyh06a4308_0
+  tzdata             pkgs/main/noarch::tzdata-2021e-hda174b7_0
+  urllib3            pkgs/main/noarch::urllib3-1.26.7-pyhd3eb1b0_0
+  vc                 pkgs/main/win-64::vc-14.2-h21ff451_1
+  vs2015_runtime     pkgs/main/win-64::vs2015_runtime-14.27.29016-h5e58377_2
+  wasabi             pkgs/main/noarch::wasabi-0.8.2-pyhd3eb1b0_0
+  wheel              pkgs/main/noarch::wheel-0.37.0-pyhd3eb1b0_1
+  win_inet_pton      pkgs/main/win-64::win_inet_pton-1.1.0-py39haa95532_0
+  wincertstore       pkgs/main/win-64::wincertstore-0.2-py39haa95532_2
+  xz                 pkgs/main/win-64::xz-5.2.5-h62dcd97_0
+  yaml               pkgs/main/win-64::yaml-0.2.5-he774522_0
+  zlib               pkgs/main/win-64::zlib-1.2.11-h62dcd97_4
+  zstd               pkgs/main/win-64::zstd-1.4.9-h19a0ad4_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+python-dateutil-2.8. | 233 KB    | ############################################################################ | 100%
+qt-5.9.7             | 72.5 MB   | ############################################################################ | 100%
+pillow-8.4.0         | 906 KB    | ################################################################################### | 100%
+matplotlib-base-3.4. | 5.5 MB    | ################################################################################### | 100%
+pytorch-mutex-1.0    | 3 KB      | ################################################################################### | 100%
+cython-blis-0.7.4    | 1.8 MB    | ################################################################################### | 100%
+pyqt-5.9.2           | 3.3 MB    | ################################################################################### | 100%
+joblib-1.1.0         | 211 KB    | ################################################################################### | 100%
+pyyaml-6.0           | 145 KB    | ################################################################################### | 100%
+setuptools-58.0.4    | 778 KB    | ################################################################################### | 100%
+numpy-1.21.2         | 24 KB     | ################################################################################### | 100%
+wincertstore-0.2     | 15 KB     | ################################################################################### | 100%
+thinc-7.4.5          | 664 KB    | ################################################################################### | 100%
+bottleneck-1.3.2     | 107 KB    | ################################################################################### | 100%
+tqdm-4.62.3          | 83 KB     | ################################################################################### | 100%
+idna-3.3             | 49 KB     | ################################################################################### | 100%
+pytz-2021.3          | 171 KB    | ################################################################################### | 100%
+fastprogress-1.0.0   | 17 KB     | ################################################################################### | 100%
+srsly-1.0.5          | 178 KB    | ################################################################################### | 100%
+pysocks-1.7.1        | 55 KB     | ################################################################################### | 100%
+urllib3-1.26.7       | 111 KB    | ################################################################################### | 100%
+python-3.9.7         | 16.5 MB   | ################################################################################### | 100%
+catalogue-1.0.0      | 13 KB     | ################################################################################### | 100%
+mkl-service-2.4.0    | 51 KB     | ################################################################################### | 100%
+fastcore-1.3.26      | 48 KB     | ################################################################################### | 100%
+tornado-6.1          | 598 KB    | ################################################################################### | 100%
+murmurhash-1.0.5     | 24 KB     | ################################################################################### | 100%
+wasabi-0.8.2         | 23 KB     | ################################################################################### | 100%
+mkl_fft-1.3.1        | 139 KB    | ################################################################################### | 100%
+numexpr-2.7.3        | 126 KB    | ################################################################################### | 100%
+cryptography-35.0.0  | 991 KB    | ################################################################################### | 100%
+cudatoolkit-11.3.1   | 545.3 MB  | ################################################################################### | 100%
+torchvision-0.11.1   | 8.9 MB    | ################################################################################### | 100%
+cffi-1.15.0          | 224 KB    | ################################################################################### | 100%
+tzdata-2021e         | 112 KB    | ################################################################################### | 100%
+fastdownload-0.0.5   | 16 KB     | ################################################################################### | 100%
+win_inet_pton-1.1.0  | 35 KB     | ################################################################################### | 100%
+icc_rt-2019.0.0      | 6.0 MB    | ################################################################################### | 100%
+fonttools-4.25.0     | 632 KB    | ################################################################################### | 100%
+jsonschema-3.0.2     | 146 KB    | ################################################################################### | 100%
+pycparser-2.21       | 94 KB     | ################################################################################### | 100%
+munkres-1.1.4        | 13 KB     | ################################################################################### | 100%
+pyrsistent-0.18.0    | 90 KB     | ################################################################################### | 100%
+threadpoolctl-2.2.0  | 16 KB     | ################################################################################### | 100%
+preshed-3.0.5        | 86 KB     | ################################################################################### | 100%
+pyparsing-3.0.4      | 81 KB     | ################################################################################### | 100%
+olefile-0.46         | 34 KB     | ################################################################################### | 100%
+sip-4.19.13          | 262 KB    | ################################################################################### | 100%
+brotlipy-0.7.0       | 411 KB    | ################################################################################### | 100%
+matplotlib-3.4.3     | 29 KB     | ################################################################################### | 100%
+scipy-1.7.1          | 13.8 MB   | ################################################################################### | 100%
+requests-2.26.0      | 59 KB     | ################################################################################### | 100%
+certifi-2021.10.8    | 152 KB    | ################################################################################### | 100%
+fastai-2.5.3         | 143 KB    | ################################################################################### | 100%
+kiwisolver-1.3.1     | 52 KB     | ################################################################################### | 100%
+cymem-2.0.5          | 38 KB     | ################################################################################### | 100%
+plac-1.1.0           | 67 KB     | ################################################################################### | 100%
+numpy-base-1.21.2    | 4.4 MB    | ################################################################################### | 100%
+scikit-learn-1.0.1   | 5.1 MB    | ################################################################################### | 100%
+pip-21.2.4           | 1.8 MB    | ################################################################################### | 100%
+cycler-0.10.0        | 16 KB     | ################################################################################### | 100%
+packaging-21.3       | 36 KB     | ################################################################################### | 100%
+pyopenssl-21.0.0     | 49 KB     | ################################################################################### | 100%
+mkl_random-1.2.2     | 225 KB    | ################################################################################### | 100%
+pandas-1.3.4         | 8.6 MB    | ################################################################################### | 100%
+spacy-2.3.5          | 4.1 MB    | ################################################################################################################################################################################### | 100%
+attrs-21.2.0         | 46 KB     | ################################################################################################################################################################################### | 100%
+charset-normalizer-2 | 35 KB     | ################################################################################################################################################################################### | 100%
+pytorch-1.10.0       | 1.45 GB   | ################################################################################################################################################################################### | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: /
+
+    Windows 64-bit packages of scikit-learn can be accelerated using scikit-learn-intelex.
+    More details are available here: https://intel.github.io/scikit-learn-intelex
+
+    For example:
+
+        $ conda install scikit-learn-intelex
+        $ python -m sklearnex my_application.py
+
+
+done
+
+(foodrec4) C:\Users\s.sahoo\Documents\privat\Artificial Intelligence>
