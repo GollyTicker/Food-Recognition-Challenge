@@ -7,3 +7,6 @@ jq
 jq.exe
 Anaconda Prompt*
 swnt-storage-credentials.txt
+__pycache__
+pool-store
+
