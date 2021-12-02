@@ -4,7 +4,7 @@ conda create -n foodrec
 conda activate foodrec
 conda install -c fastai fastbook
 conda install -c fastai -c pytorch fastai
-
+conda install -c fastai fastprogress
 
 #### Setup log
 
